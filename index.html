@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- custom css fie -->
+  <!-- ionicon cdn -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Porto E-commerce - Landing Page</title>
+</head>
+
+<body>
+  <!-- offer alert start here -->
+  <div class="alert alert-dark bg-dark text-light alert-dismissible fade show text-center alrt border-0" role="alert">
+    Get Up to <b>40% OFF</b> New-Season Styles <button class="btn btn-dark btn-sm">MEN</button>
+    <button class="btn btn-dark btn-sm">WOMEN</button>
+    <span class="text-secondary">* Limited Time Only</span>
+    <button type="button" class="alert-btn" data-bs-dismiss="alert" aria-label="Close">&#10005;</button>
+  </div>
+  <!-- offer alert end here -->
+
+  <!-- Menu bar start here -->
+  <div class="header d-flex">
+    <div class="header-left">
+      <div class="header-dropdown me-auto me-sm-3 me-md-0">
+        <!-- <img src="images/usa_flag.png" alt="" width="20px"> ENG
+
+          <ul>
+            <li><a href="" class="pl-0"><img src="images/usa_flag.png" alt="" width="20px">ENG<ion-icon name="chevron-down-sharp"></ion-icon></a></li>
+            <li><a href=""><img src="images/france_flag.png" alt="" width="20px"> FRA</a></li>
+          </ul> -->
+      </div>
+
+      <!-- <select name="" id="">USD
+                <option value="">EUR</option>
+                <option value="">USD</option>
+            </select> -->
+    </div>
+    <div class="header-menu">
+      <ul>
+        <li><a href=""> WELCOME TO PORTO!</a></li>
+        <li><a href="">MY ACCOUNT</a></li>
+        <li><a href="">CONTACT US</a></li>
+        <li><a href="">MY WISHLIST</a></li>
+        <li><a href="">SITEMAP</a></li>
+        <li><a href="">CART</a></li>
+        <li><a href="">LOGIN</a></li>
+      </ul>
+    </div>
+    <div class="seprator"></div>
+    <div class="header-social">
+      <a href=""> <i class="fa fa-facebook"></i></a>
+      <a href=""> <i class="fa fa-twitter"></i></a>
+      <a href=""><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+
+
+  <!-- menu bar ends here -->
+
+  <div class="container py-3 header-2 d-flex">
+    <div class="logo text-center">
+      <img src="images/logo.png" width="111px" height="44px" alt="">
+    </div>
+    <div class="search">
+      <input type="search" class="ms-2 border-0 fs-6 search" placeholder="Search . . .">
+      <div class="seprator-cat"></div>
+      <div class="categories py-3">
+        <select name="categories" id="">
+          <option value="" id="categries-list">All categories</option>
+          <option value="">Fashion</option>
+          <option value="">-Women</option>
+          <option value="">-Men</option>
+          <option value="">-Jewellery</option>
+          <option value="">-Kids Fashion</option>
+          <option value="">Electronics</option>
+          <option value="">-Smart TV's</option>
+          <option value="">-Cameras</option>
+          <option value="">-Games</option>
+          <option value="">Homes and Garden</option>
+          <option value="">Moters</option>
+          <option value="">-Car and Trucks</option>
+          <option value="">-Motercycle and Powersports</option>
+          <option value="">-Parts and Accessories</option>
+          <option value="">-Boats</option>
+          <option value="">-Auto Tool and Supplies</option>
+        </select>
+      </div>
+      <div class="seprator-cat"></div>
+      <ion-icon name="search-outline" class="search-icon"></ion-icon>
+      <!-- <i class="fa fa-solid fa-magnifying-glass"></i> -->
+    </div>
+
+    <ion-icon name="call-outline" class="mx-4"></ion-icon>
+    <div class="call">
+      <h6 id="call-head">CALL US NOW</h6>
+      <h5 id="call-para">+123 456 7890</h5>
+    </div>
+    <ion-icon name="person-outline" class="mx-2"></ion-icon>
+    <ion-icon name="heart-outline" class="mx-2"></ion-icon>
+    <ion-icon name="bag-outline" class="mx-2"></ion-icon>
+    <span class="">&#10094;</span>
+
+  </div>
+  <div class="container d-flex service text-center">
+    <div class="col-md-4 d-flex">
+      <ion-icon name="train-outline" class="process-icon"></ion-icon>
+
+      <div class="service-text">
+        <h5 class="service-text-head">FREE SHIPPING & RETURN</h5>
+        <p class="service-text-para">Free Shipping on All Order above $99.</p>
+      </div>
+    </div>
+    <div class="seprator-service"></div>
+    <div class="col-md-4 d-flex">
+      <ion-icon name="wallet-outline" class="process-icon"></ion-icon>
+      <div class="service-text">
+        <h5 class="service-text-head">MONEY BACK GUARANTEE</h5>
+        <p class="service-text-para">100% More Money Back Guarantee</p>
+      </div>
+    </div>
+    <div class="seprator-service"></div>
+    <div class="col-md-4 d-flex">
+      <ion-icon name="help-circle-outline" class="process-icon"></ion-icon>
+      <div class="service-text">
+        <h5 class="service-text-head">SUPPORT 24/7</h5>
+        <p class="service-text-para">Lorem ipsum dolor sit amet</p>
+      </div>
+    </div>
+  </div>
+  <!-- vertical nav start here -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <ul class="nav flex-column  border border-2 mx-3">
+          <li class="nav-item">
+            <p class="fw-bold p-2 browse">BROWSE CATEGORIES</p>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#"><span><i class="fa fa-home"></i></span> &nbsp;
+              Home</a>
+            <hr width="85%%" class="m-auto menu-border-bottom">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span><i class="fa fa-home"></i></span> &nbsp; categories</a>
+            <hr width="85%%" class="m-auto menu-border-bottom">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span><i class="fa fa-home"></i></span> &nbsp; Products</a>
+            <hr width="85%%" class="m-auto menu-border-bottom">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span><i class="fa fa-envelope"></i></span> &nbsp; Pages</a>
+            <hr width="85%%" class="m-auto menu-border-bottom">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span><i class="fa fa-book"></i></span> &nbsp; Blog</a>
+            <hr width="85%%" class="m-auto menu-border-bottom">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span><i class="fa fa-user"></i></span> &nbsp; About Us</a>
+            <hr width="85%%" class="m-auto menu-border-bottom">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span><i class="fa fa-home"></i></span> &nbsp; Special Offer!</a>
+            <hr width="85%%" class="m-auto menu-border-bottom">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" aria-disabled="true"><span><i class="fa fa-star"></i></span> &nbsp; Buy Pro!
+              &nbsp;<span class="badge bg-danger">Hot</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- vertical nav end here -->
+      <!-- crausel start here -->
+      <div id="carouselExampleDark" class="carousel carousel-dark col-lg-9 slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active slider-1" data-bs-interval="10000" data-interval="false">
+            <img src="images/slide-1.png" class="d-block" alt="...">
+            <!-- slider text start -->
+            <div class="banner-layer">
+              <div class="slider1-text1">
+                <h4>Find the Boundries. Push Through!</h4>
+              </div>
+              <div class="slider1-text2">
+                <h2>Summer Sale</h2>
+              </div>
+              <div class="slider1-text3">
+                <h3>70% OFF</h3>
+              </div>
+              <div class="slider1-text4">
+                <div class="price-range">
+                  <h5>Starting At
+                    <b class="coupan-sale-text">$
+                      <em class="align-text-top">199</em>99</b>
+                  </h5>
+                  <a href="" class="btn btn-dark btn-md rounded-0">SHOP NOW!</a>
+                </div>
+              </div>
+            </div>
+            <!-- slider text end -->
+          </div>
+          <div class="carousel-item" data-bs-interval="2000" data-interval="false">
+            <img src="images/slide-2.jpg" class="d-block" alt="...">
+            <!-- slider text start -->
+            <div class="banner-layer">
+              <div class="slider2-text1">
+                <h4 class="text-uppercase">Over 200 Products with discount!</h4>
+              </div>
+              <div class="slider2-text2">
+                <h2>Great Deals</h2>
+              </div>
+              <div class="slider2-text3">
+                <div class="price-range-2">
+                  <h5>Starting At
+                    <b>$<em class="align-text-middle">299</em>
+                      99
+                    </b>
+                  </h5>
+                  <a href="" class="btn btn-dark btn-md rounded-0">GET YOURS!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="false">
+            <img src="images/slide-3.jpg" class="d-block" alt="...">
+            <!-- slider text start -->
+            <div class="banner-layer">
+              <div class="slider2-text1">
+                <h4 class="text-uppercase">UPTO 70% OFF!</h4>
+              </div>
+              <div class="slider2-text2">
+                <h2>NEW ARRIVALS</h2>
+              </div>
+
+              <div class="slider2-text3">
+                <div class="price-range-2">
+                  <h5>Starting At
+                    <b class="coupan-sale-text">$<em class="align-text-middle">299</em>
+                      99
+                    </b>
+                  </h5>
+                  <a href="" class="btn btn-dark btn-md rounded-0">GET YOURS!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <!-- carausel end here -->
+  <!-- product offer listing section start here -->
+  <div class="container">
+    <div class="row">
+
+      <div class="col-3 sale-badge">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="banner">
+            <div class="carousel-inner">
+              <!-- slider -1 start -->
+              <div class="carousel-item active text-center">
+                <div class="vl"></div>
+                <div class="badge-top">
+                  <h5 class="sale-badge-head d-flex flex-column position-relative justify-content-center"> <b>SALE</b>
+                    <br> MANY ITEM
+                  </h5>
+                  <div class="small-dot"></div>
+                </div>
+                <div class="off-num">
+                  <small class="upto-text">UP TO</small>
+                  <h4 class="badge-text">50
+                  </h4>
+                  <div class="super">
+                    <p id="percent-sign">%</p>
+                    <p id="off-sign">OFF</p>
+                  </div>
+                </div>
+                <p class="text-center mt-2 sale-para">Bags, Clothing, T-shirt Shoes, Watches and Much More...</p>
+                <a href="" class="btn btn-dark btn-lg rounded-0 view-sale-btn">VIEW SALE</a>
+              </div>
+              <!-- slider - 2 -->
+              <div class="carousel-item" data-interval="false">
+                <div class="slider-2 text-center">
+                  <img src="images/banner-7.jpg" class="d-block align-item-center" alt="...">
+                  <h4>DRONE + CAMERAS</h4>
+                  <h5 class="coupan-sale-text">
+                    <small class="upto-text">UP TO</small>
+                    <b class="text-white bg-dark">$100</b>OFF
+                  </h5>
+                  <p>Top Brands and Models</p>
+                  <a href="" class="btn btn-dark btn-lg rounded-0 view-sale-btn">VIEW SALE</a>
+                </div>
+              </div>
+              <!-- slider-3 -->
+              <div class="carousel-item" data-interval="false">
+                <div class="slider-3 text-center">
+                  <p class="sale-slider-top text-uppercase">Headphone Sale</p>
+                  <img src="images/banner-8.jpg" class="d-block" alt="...">
+                  <h5 class="coupan-sale-text">
+                    <small class="upto-text">UP TO</small>
+                    <b class="Headphone-sale">50%</b>OFF
+                  </h5>
+                  <a href="" class="btn btn-dark btn-lg rounded-0 view-sale-btn">VIEW SALE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-md-9">
+        <div class="row pt-2">
+          <div class="col-md-4">
+            <div class="p1">
+              <img src="images/banner-1.jpg" class="img-fluid" alt="">
+              <div class="p1-text">
+                <h3>Porto Watches</h3>
+                <div class="off">
+                  <p id="twenty-off"><sup>
+                      <del>20%</del></sup></p>
+                  <p id="thirty-off">30%<sup>OFF</sup></p>
+                </div>
+                <p class="shop-now">SHOP NOW</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p2" id="p2-border">
+              <img src="images/banner-2.jpg" alt="" class="img-fluid">
+              <div class="p2-text text-center">
+                <P>DEAL PROMOS</P>
+                <p id="p2-text2">STARTING AT $99</p>
+                <p class="shop-now">SHOP NOW</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p3">
+              <img src="images/banner-3.jpg" alt="" class="img-fluid">
+              <div class="p3-text3">
+                <h4>Handbags</h4>
+                <p>Starting At $99</p>
+                <p id="shop-now">SHOP NOW</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h5 class="fw-bold fs-6 pt-4">FEATURED PRODUCT</h3>
+          <hr>
+          <!-- product section second row start here -->
+          <div class="row">
+            <div class="col-md-3">
+              <div class="p4">
+                <img src="images/product_3_1_aa36e3acf3.jpg" class="img-fluid" alt="">
+                <div class="p-badge d-flex flex-column">
+                  <span class="badge rounded-pill bg-success">HOT</span>
+                  <span class="badge rounded-pill bg-danger ">-13%</span>
+                </div>
+                <span>COM, HEADPHONE <ion-icon name="heart-outline"></ion-icon></span>
+                <h6>Battery Charger</h6>
+                <span>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </span>
+                <p><del>$299.00</del>$259.00</p></del>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="p5">
+                <img src="images/product_11_4_54014e00fe.jpg" class="img-fluid" alt="">
+                <div class="p-badge d-flex flex-column">
+                  <span class="badge rounded-pill bg-success">HOT</span>
+
+                </div>
+                <span>WATCHES, HEADPHONE <ion-icon name="heart-outline"></ion-icon></span>
+                <p>Black Gray Headshet</p>
+                <span>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="p6">
+                <img src="images/product_1_1_d4c0bc54d3.jpg" class="img-fluid" alt="">
+                <div class="p-badge d-flex flex-column">
+                  <span class="badge rounded-pill bg-success">HOT</span>
+                  <span class="badge rounded-pill bg-danger ">-33%</span>
+                </div>
+                <span>COM, T-SHIRT <ion-icon name="heart-outline"></ion-icon></span>
+                <p>Brown Bag</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="p7">
+                <img src="images/product_2_2_7e199dceb1.jpg" class="img-fluid" alt="">
+                <div class="p-badge d-flex flex-column">
+                  <span class="badge rounded-pill bg-success">HOT</span>
+
+                </div>
+                <span>COM, T-SHIRT, CLOTHING, SHOES <ion-icon name="heart-outline"></ion-icon></span>
+                <p>Casual Note Bag</p>
+                <span>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </span>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+    <!-- product section first row start here -->
+
+
+
+  </div>
+  <div class="container brand-list d-flex mx-3">
+    <div class="brand-image">
+      <img src="images/brand1.png" alt="" class="img-fluid">
+    </div>
+    <div class="brand-image">
+      <img src="images/brand2.png" alt="" class="img-fluid">
+    </div>
+    <div class="brand-image">
+      <img src="images/brand3.png" alt="" class="img-fluid">
+    </div>
+    <div class="brand-image">
+      <img src="images/brand4.png" alt="" class="img-fluid">
+    </div>
+    <div class="brand-image">
+      <img src="images/brand5.png" alt="" class="img-fluid">
+    </div>
+  </div>
+  </div>
+
+
+
+
+  </div>
+  <!-- product offer listing end here -->
+
+
+  <!-- footer start here -->
+  <footer class="footer bg-dark position-relative text-white pb-5">
+    <div class="footer-middle">
+      <div class="container position-static">
+        <div class="footer-ribbon">
+          Get in Touch
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-sm-6 pb-2 pb-sm-0">
+            <div class="widget">
+              <h4 class="widget-title">ABOUT US</h4>
+              <a href="">
+                <img class="logo-footer" src="images/logo-footer.png" alt="">
+              </a>
+              <p class="m-b-4 about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa architecto
+                similique quos, ipsam reiciendis, non quam magni impedit deleniti voluptates reprehenderit quibusdam.
+              </p>
+              <a class="read-more text-white" href="">Read More...</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 pb-2 pb-sm-0">
+            <div class="widget mb">
+              <h4 class="widget-title mb-11 pb-1">CONTACT INFO</h4>
+              <ul class="contact-info m-b-4">
+                <li>
+                  <span class="contact-info-label">Address:</span><br>
+                  123, Street Name, City, England
+                </li>
+                <li>
+                  <span class="contact-info-label">Phone:</span><br>
+                  <a href="#">(123) 456-7890</a>
+                </li>
+                <li>
+                  <span class="contact-info-label">Email:</span><br>
+                  <a href="#">mail@example.com</a>
+                </li>
+                <li>
+                  <span class="contact-info-label">Working Days/Hours:</span><br>
+                  Mon - Sun / 9:00 AM - 8:00 PM
+                </li>
+              </ul>
+              <div class="social-icons">
+
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 pb-2 pb-sm-0">
+            <div class="widget">
+              <h4 class="widget-title">CUSTOMER SERVICE</h4>
+              <ul class="links">
+                <li>
+                  <a href="">Help & FAQS</a>
+                </li>
+                <li>
+                  <a href="">Orader Tracking</a>
+                </li>
+                <li>
+                  <a href="">Shiiping & Delivery</a>
+                </li>
+                <li>
+                  <a href="">Order history</a>
+                </li>
+                <li>
+                  <a href="">Advanced Search</a>
+                </li>
+                <li>
+                  <a href="">My Account</a>
+                </li>
+                <li>
+                  <a href="">Careers</a>
+                </li>
+                <li>
+                  <a href="">About Us</a>
+                </li>
+                <li>
+                  <a href="">Carporate Sales</a>
+                </li>
+                <li>
+                  <a href="">Privacy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 pb-2 pb-sm-0">
+            <div class="widget">
+              <h4 class="widget-title">
+                Popular Tags
+              </h4>
+              <div class="footer-tags">
+                <a href="">Bag</a>
+                <a href="">Black</a>
+                <a href="">Blue</a>
+                <a href="">Clothes</a>
+                <a href="">Fashion</a>
+                <a href="">Hub</a>
+                <a href="">Jean</a>
+                <a href="">Shirt</a>
+                <a href="">Skirt</a>
+                <a href="">Sports</a>
+                <a href="">Sweater</a>
+                <a href="">Winter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- bottom footer  start -->
+  <div class="container-fluid w-100 px-0">
+    <div class="footer-bottom">
+      <div class="container d-sm-flex align-item-center">
+        <div class="footer-left">
+          <span class="footer-copyright">&#169; Porto eCommerce 2021. All Rights Reserved</span>
+        </div>
+        <div class="footer-right ms-auto mt-1 mt-sm-0">
+          <div class="payment-icons">
+            <span class="payment-icon visa" style="background-image: url(images/payment-visa.svg);"></span>
+            <span class="payment-icon paypal" style="background-image: url(images/payment-paypal.svg);"></span>
+            <span class="payment-icon stripe" style="background-image: url(images/payment-stripe.png);"></span>
+            <span class="payment-icon verisign" style="background-image: url(images/payment-verisign.svg);"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--bottom footer end -->
+
+
+  <!-- footer end here -->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <!-- custom js file -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>
